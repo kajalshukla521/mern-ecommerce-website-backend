@@ -1,5 +1,5 @@
 
-const userModel = require("../models/userModel")
+const userModel = require("../../models/userModel")
 const bcrypt = require("bcryptjs");
 
 async function  userSignInController(req, res) {
